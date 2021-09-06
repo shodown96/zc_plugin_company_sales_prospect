@@ -1,12 +1,3 @@
-.app{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-top: 200px ;
-}
-
 table{
   border-collapse: collapse;
 }
@@ -14,6 +5,21 @@ table{
 .modal {
   background-color: rgba(0, 0, 0, 0.4);
 }
+
+.modal input, select {
+  width: 100%;
+}
+
+.h-screen2{
+  height: 60vh;
+}
+
+.deals-grid{
+  width: 100%;
+  overflow-x: auto;
+  z-index: 200;
+}
+
 .btn {
   border: 1px solid #2F80ED;
   border-radius: 3px;
@@ -25,6 +31,8 @@ table{
   font-size: 12px;
   font-weight: 600;
 }
+
+
 .button-box {
   width: 300px;
   display: flex;
@@ -32,3 +40,46 @@ table{
   align-items: center;
   margin-top: 5vh;
 }
+button{
+  outline-style: none;
+  border:1px solid;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+
+.homeCard{
+  min-width:187px;
+   min-height:141px;
+   border: 1px solid #a1a1a1;
+   margin: 20px;
+  border-radius: 5px;
+}
+
+.homeCard:hover{
+  background-color: #F7FFFC;
+  cursor:pointer;
+}
+
+#loader{
+  display:block;
+  margin: auto;
+  margin-top: 20vh;
+  margin-bottom: 70px;
+  width:100px;
+  height:100px;
+}
+
+#role{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+  #role{
+    display: block;
+  }
+}
+
