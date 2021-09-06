@@ -3,10 +3,8 @@
 ".DS_Store"
 venv
 __pycache__
-prospectapp/__pycache__
-"prospect/migrations/__pycache__/"
-"propectapp/sidebar/__pycache__/"
-"deals/migrations/__pycache__/"
+build
+node_modules
 venv/
 "db.sqlite3"
 venv
